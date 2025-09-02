@@ -9,6 +9,11 @@ Apresenta um manual ensinando os parâmetros de uso de comandos, exemplo: <code>
 
 <br>
 
+<code> cd /home </code><br>
+Navega para o diretório /home
+
+<br>
+
 <code> pwd</code><br>
 Mostra o diretório atual (Onde você está no momento)
 
@@ -47,7 +52,9 @@ Adiciona um usuário como administrador adicionando ao grupo sudo !
 <code>mkdir nomeDoDiretorio </code><br>
 Cria um novo diretório (Caso queira criar diretórios com subdiretórios use: mkdir -p novoDiretoro)
 
-<br><br>
+<br>
+
+
 
 ## Comandos para Administração de usuários:
 
@@ -86,27 +93,13 @@ Adiciona um usuário ao grupo sudo garantindo privilégios administrador (Você 
 
 <br>
 
-## Conheça os principais diretórios do Linux:
 
-| Diretório | Descrição
-|-----------|---------------------------------|
-| /          | Raiz do sistema                 |
-| /bin       | Binários Executáveis de comandos |
-| /boot      | Arquivos necessários para inicializar o sistema Linux|
-| /dev       | Armazena pseudo arquivos (Dispositivos periféricos físicos são apresentados nesse diretório)|
-| /etc       | Configurações de serviços do sistema |
-| /home      | Diretório de arquivos pessoais do usuário|
-| /lib & /lib64 | São bibliotecas de sistema |
-| /mnt & /media | Diretórios de montagem de discos e pendrives|
-| /opt       | Um diretório opcional de instalação de programas|
-| /proc      | Pseuso configurações de Hardware |
-| /root      | Diretório pessoal do superusuário|
-| /run       | Fica armazenado os processos dos programas|
-| /sbin      | superbinários - Comandos específicos do root|
-| /srv       | Diretório de Serviços de sistemas |
-| /sys       | Armazenam algumas configurações para dispositivos USB|
-| /tmp       | Arquivos temporários |
-| /usr       | Pasta de instalação de programas padrão|
-| /var       | Arquivos de programas de tamanhos variáveis|
+## Copiando, movendo e removendo :
+
+
+<br>
+
+<code>sudo useradd nomeDoUsuario </code><br>
+Cria um novo usuário
 
 
