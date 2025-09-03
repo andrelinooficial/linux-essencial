@@ -99,7 +99,7 @@ Adiciona um usuário ao grupo sudo garantindo privilégios administrador (Você 
 
 <br>
 
-<code>sudo useradd nomeDoUsuario </code><br>
+<code>cp nomeDoArquivo </code><br>
 Cria um novo usuário
 
 

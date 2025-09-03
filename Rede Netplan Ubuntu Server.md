@@ -26,7 +26,26 @@ network:
 
 ```
 
-OBS: 
+### Caso queira adicionar mais de um endereço IP para a mesma interface, basta adicionar mais de um em addresses conforme o exemplo a seguir:
+
+```
+network:
+  version: 2
+  ethernets:
+    enp0s18:
+      dhcp4: no
+      addresses:
+        - 192.168.1.200/24
+        - 192.168.1.201/24
+      gateway4: 192.168.1.254
+      nameservers:
+        addresses:
+          - 1.1.1.1
+          - 8.8.8.8
+
+```
+
+### OBS: 
 - Respeite os espaços, pois arquivos YAML devem respeitar ierarquia ! Caso esteja diferente do exemplo acima pode não funcionar!
 - Troque as Informações de acordo com a sua Rede e o nome da placa de rede da VM 
 - Após salvar o arquivo execute o comando <code>sudo netplan apply</code>
