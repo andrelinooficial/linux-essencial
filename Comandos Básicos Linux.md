@@ -54,6 +54,18 @@ Cria um novo diretório (Caso queira criar diretórios com subdiretórios use: m
 
 <br>
 
+<code>cat nomeDoArquivo.yaml </code><br>
+Visualiza um arquivo
+
+<br>
+
+<code>nano nomeDoArquivo</code><br>
+Abre um arquivo com o editor de texto nano... Ex: nano /etc/ssh/sshd_config -> Abre o arquivo sshd_config possibilitando edição do arquivo
+
+<br>
+
+<code>wget https://enderecodainternetparabaixaralgumacoisa.xyz</code><br>
+Abre um arquivo com o editor de texto nano... Ex: nano /etc/ssh/sshd_config -> Abre o arquivo sshd_config possibilitando edição do arquivo
 
 
 ## Comandos para Administração de usuários:
@@ -99,7 +111,26 @@ Adiciona um usuário ao grupo sudo garantindo privilégios administrador (Você 
 
 <br>
 
-<code>cp nomeDoArquivo </code><br>
-Cria um novo usuário
+<code>cp nomeDoArquivo /home</code><br>
+Copia um arquivo do diretório atual para o diretório /home - (Caso queira fazer uma cópia no mesmo local use: <code>cp nomeDoArquivo nomeDoArquivo2</code>)<br>
+OBS: Caso queira copiar uma pasta que contém arquivos utilize o parâmetro -R ex: <code>cp -R nomeDaPasta /home</code>
 
 
+<code>mv nomeDoArquivo /home</code><br>
+Move um arquivo do diretório atual para o diretório /home
+
+
+
+<code>rm nomeDoArquivo</code><br>
+remove um arquivo - (Caso queira remover um diretório use: <code>rm -r nomeDoDiretório</code>, se quiser forçar use -f, ex: <code>rm -rf nomeDoDiretorio</code>)
+
+
+## Localização de arquivos:
+
+Existe um programa chamado locate que não faz parte do repositório padrão de instalação do Debian, mais pode ser instalado usando o comando: <code>sudo apt install locate</code><br>
+Este programa possibilita a localização de arquivos no sistema ! é importante sempre executar o comando <code>sudo updatedb</code> para garantir que ele reconheça toda a raiz do sistema para fazer buscas! 
+<br>
+
+<code>cp nomeDoArquivo /home</code><br>
+Copia um arquivo do diretório atual para o diretório /home - (Caso queira fazer uma cópia no mesmo local use: <code>cp nomeDoArquivo nomeDoArquivo2</code>)<br>
+OBS: Caso queira copiar uma pasta que contém arquivos utilize o parâmetro -R ex: <code>cp -R nomeDaPasta /home</code>
